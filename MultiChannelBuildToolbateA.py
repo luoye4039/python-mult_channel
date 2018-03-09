@@ -38,7 +38,7 @@ for src_apk in src_apks:
     src_apk_extension = temp_list[1]
     print(src_apk_extension)
     # 创建生成目录,与文件名相关
-    output_dir = 'C:\\Users\\wangbin\\Desktop\\package\\channle_package\\'
+    output_dir = 'E:\\transn\\package\\mult_channel\\'
     # 目录不存在则创建
     if not os.path.exists(output_dir):
         os.mkdir(output_dir)
